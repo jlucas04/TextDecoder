@@ -276,3 +276,80 @@ footer p {
 	width: 60px;
 	height: 70px;
 }
+
+@media screen and (max-width:480px) {
+	.primeirasecao, .cabecalho{
+		width: auto;
+		margin: 0px;
+		margin-left: 20px;
+
+	}
+
+	.segundasecao{
+		width: 300px;
+		position: static;
+		height: 300px;
+		margin-left: 25px;
+
+	}
+
+	.terceirasecao{
+		width: 300px;
+		height: 300px;
+		margin-left: 25px;
+		position: absolute;
+		left: 0px;
+		top: 350px;
+		display: none;
+	}
+
+	.botaodecopiar{
+		margin: 0px;
+		width: 300px;
+	}
+	.botaoRecarregar{
+		margin: 0px;
+		width: 300px;
+	}
+
+	.lupinha{
+		width: 200px;
+		height: 200px;
+		padding-top: 120px;
+		padding-left: 40px;
+	}
+	.texto-area1{
+		width: 280px;
+		margin: 0px;
+		height: 100px;
+	}
+	.texto-area2{
+		width: 280px;
+		margin: 0px;
+		height: 100px;
+	}
+
+	.Criptografar, .Descriptografar{
+		margin: 0px;
+		width: 300px;
+	}
+	.responsivobutton{
+		margin: 0px;
+	}
+
+	footer {
+		width: auto;
+	}
+	footer p {
+		text-align: center;
+		width: 350px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.imagemrodape{
+		width: 350px;
+		margin-left:20px ;
+	}
+
+}
